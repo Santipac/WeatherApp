@@ -33,7 +33,7 @@ export const Buscador = () => {
     <div className="grid auto-rows-min mt-16 ">
       <form className="flex items-center justify-center">
         <input
-          className=" h-8 bg-[#ffffff85]  rounded-md px-4 border-none focus:ring-black focus:border-none text-slate-800"
+          className=" h-8 w-[15rem] md:w-auto bg-[#ffffff85]  rounded-md px-4 border-none focus:ring-black focus:border-none text-slate-800"
           type="text"
           value={input}
           onChange={handlerChange}
