@@ -60,7 +60,7 @@ export const InfoGrid = ({ weather }) => {
         <h2 className="text-left text-2xl text-white py-0.5 font-semibold">
           Forecast
         </h2>
-        <div className="line w-full h-[1px] bg-slate-300 flex justify-around ">
+        <div className="line w-full h-[1px] bg-slate-300 flex justify-between ">
           <div className="cero flex flex-col py-4">
             <p className="text-white font-normal text-md">{cero.date}</p>
             <figure>
