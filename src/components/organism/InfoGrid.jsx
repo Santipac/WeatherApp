@@ -27,7 +27,7 @@ export const InfoGrid = ({ weather }) => {
 
   return (
     <div className="grid auto-rows-min  text-center my-16">
-      <p className="font-normal text-md text-slate-400 pb-6">
+      <p className="font-normal text-md text-slate-200 pb-6">
         {location.localtime}
       </p>
       <div className="main-information flex flex-col justify-center items-center ">
@@ -44,15 +44,15 @@ export const InfoGrid = ({ weather }) => {
           {current.temp_c} ºC
         </h2>
       </div>
-      <div className="secondary-info flex items-center justify-between my-8 p-4">
+      <div className="secondary-info flex items-center justify-between my-8 p-2">
         <p className="flex items-center  text-white">
           <TbDroplet size="25px" className="mr-2 " /> {current.humidity} %
         </p>
-        <p className="flex items-center px-6 text-white">
+        <p className="flex items-center sm:px-6 text-white">
           <TbTemperature size="25px" className="mr-2 " />
           {Math.round(current.feelslike_c)} ºC
         </p>
-        <p className="flex items-center  text-white">
+        <p className="flex items-center text-sm text-white">
           <TbWind size="25px" className="mr-2 " /> {current.wind_kph} km/h
         </p>
       </div>
