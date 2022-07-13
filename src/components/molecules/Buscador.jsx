@@ -30,7 +30,7 @@ export const Buscador = () => {
   }, [city]);
 
   return (
-    <div className="grid auto-rows-min mt-16 min-h-min">
+    <div className="grid auto-rows-min mt-6 min-h-min">
       <form className="flex items-center justify-center">
         <input
           className=" h-8 w-[15rem] md:w-auto bg-[#ffffff85]  rounded-md px-4 border-none focus:ring-black focus:border-none text-slate-800"
