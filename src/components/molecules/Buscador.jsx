@@ -33,16 +33,16 @@ export const Buscador = () => {
     <div className="grid auto-rows-min mt-6 min-h-min">
       <form className="flex items-center justify-center">
         <input
-          className=" h-8 w-[15rem] md:w-auto bg-[#ffffff85]  rounded-md px-4 border-none focus:ring-black focus:border-none text-slate-800"
+          className=" h-8 w-[15rem] lg:w-[25rem] lg:h-[2.5rem] md:w-auto bg-[#ffffff85]  rounded-md px-4 border-none focus:ring-black focus:border-none text-slate-800"
           type="text"
           value={input}
           onChange={handlerChange}
         />
         <button
-          className="ml-2 min-w-[2rem] rounded-full h-8 bg-[#ffffff85] text-slate-800 flex justify-center"
+          className="ml-2 min-w-[2.5rem] min-h-[2.2rem] rounded-full h-8 bg-[#ffffff85] text-slate-800 flex justify-center"
           onClick={HandlerClick}
         >
-          <IoSearchOutline size="20px" className="mt-1.5 " />
+          <IoSearchOutline size={'23px'} className="mt-1.5 " />
         </button>
       </form>
 
